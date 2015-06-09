@@ -14,7 +14,7 @@ var transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
         user: 'safmaadd@gmail.com',
-        pass: 'ThE345@#'
+        pass: 'EtH456jki'
     }
 });
 
@@ -36,7 +36,7 @@ transporter.sendMail(mailOptions, function(error, info){
         res.redirect('/');
     }else{
         console.log('Message sent: ' + info.response);
-        res.redirect('/');
+        res.redirect('/sent');
     }
 });
 });
