@@ -8,7 +8,7 @@ var nodemailer = require('nodemailer');
 
 var routes = require('./routes/index');
 var about = require('./routes/about');
-ar contact = require('./routes/contact');
+var contact = require('./routes/contact');
 
 var app = express();
 
